@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Ubuntu'; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar {
+    position: absolute;
+    width: 170px;
+    height: 100%;
+    background: grey;
+    left: -170px;
+    transition: .4s;
+}
+
+#sidebar.active {
+   left: 0; 
+}
+
+#sidebar ul li {
+    list-style: none;
+    font-size: 20px;
+    padding: 20px, 24px;
+}
+
+#sidebar .toggle-btn {
+    position: absolute;
+    top: 30px;
+    left: 175px;
+}
+
+.toggle-btn span {
+    width: 45px;
+    height: 5px;
+    background: white;
+    display: block;
+    margin-top: 5px;
+}
+
+
