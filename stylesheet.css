@@ -10,6 +10,14 @@ body {
     padding: 0;
 }
 
+header{
+    text-align: center;
+}
+
+#headerBar {
+    display: inline-block;
+}
+
 #sidebar {
     position: absolute;
     width: 170px;
@@ -31,13 +39,12 @@ body {
 
 #sidebar .toggle-btn {
     position: absolute;
-    top: 30px;
     left: 175px;
 }
 
 .toggle-btn span {
     width: 45px;
-    height: 5px;
+    height: 2px;
     background: white;
     display: block;
     margin-top: 5px;
