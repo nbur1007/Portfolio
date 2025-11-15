@@ -1,53 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 body {
-    background-color: #000000;
+    background-color: #202020;
     color: #FFFFFF;
-    font-family: 'Ubuntu'; 
+    font-family: "Montserrat", sans-serif; 
 }
 
-* {
-    margin: 0;
-    padding: 0;
+header {
+    display:flex;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    justify-content: flex-end;
+    background-color: #191919;
 }
 
-header{
+nav {
+    background-color: #181818;
+    margin: 0px;
+    position: fixed;
+    display: flex;
+    align-items: left;
+    justify-content: flex-end;
+    justify-content: space-around;
+}
+
+.navitem {
+    color: white;
+    text-decoration: none;
+    padding:5px;
+}
+
+.navitem:hover {
+    color: rgb(75, 163, 75);
+}
+
+.home{
+    display: flex;
+    
+}
+
+#intro {
+    padding: 20%;
+}
+
+.intro_content{
+    font-weight:400;
     text-align: center;
 }
 
-#headerBar {
-    display: inline-block;
+.intro_content span{
+    color: rgb(75, 163, 75);
 }
-
-#sidebar {
-    position: absolute;
-    width: 170px;
-    height: 100%;
-    background: grey;
-    left: -170px;
-    transition: .4s;
-}
-
-#sidebar.active {
-   left: 0; 
-}
-
-#sidebar ul li {
-    list-style: none;
-    font-size: 20px;
-    padding: 20px, 24px;
-}
-
-#sidebar .toggle-btn {
-    position: absolute;
-    left: 175px;
-}
-
-.toggle-btn span {
-    width: 45px;
-    height: 2px;
-    background: white;
-    display: block;
-    margin-top: 5px;
-}
-
-
