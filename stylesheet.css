@@ -10,17 +10,18 @@ header {
     margin: 0px;
     padding: 0px;
     border: 0px;
-    justify-content: flex-end;
+    justify-content: center;
     background-color: #191919;
 }
 
 nav {
     background-color: #181818;
     margin: 0px;
+    top:0px;
     position: fixed;
+    width: 100%;
     display: flex;
-    align-items: left;
-    justify-content: flex-end;
+    align-items: center;
     justify-content: space-around;
 }
 
@@ -50,4 +51,8 @@ nav {
 
 .intro_content span{
     color: rgb(75, 163, 75);
+}
+
+#TravelTime img{
+    justify-content: right;
 }
